@@ -1,4 +1,4 @@
-# Unified Synonym Format for search engines 
+# Unified Search Engine Synonym Format
 
 This repository holds proposals and tools for crafting a unified synonym format
 to load and exchange synonyms into search engines. 
@@ -30,3 +30,8 @@ definitions:
     down:
       - software
 ``` 
+
+## Tooling
+
+- format validator (using `yq` ideally in a Docker image)
+- Solr Synonym file generator
